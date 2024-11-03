@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:"Poppins", sans-serif ;
+}
+body{
+    cursor: none;
+  }
+
+  #cursor {
+    height: 25px; /* Tamaño aumentado para un efecto más notable */
+    width: 25px; 
+    background: #fffefee8;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: transform 0.2s ease, background 0.2s ease; /* Suaviza la transición */
+    box-shadow:  0 0 8px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+}
+
+.container01{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #d2001a,#7462ff,#f48e21,rgb(214, 69, 171) );
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+
+}
+
+@keyframes color{ 
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+#nav {
+    height: 160px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+    gap: 50px;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 999;
+    background-color: #f0eeeeb6;
+  }
+  #nav img {
+    height: 4.5vw;
+  }
+
+  #nav .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Espacio entre los enlaces */
+    flex-grow: 1;
+    
+}
+
+#nav a {
+    text-transform: capitalize; /* Cambia a mayúsculas y minúsculas */
+    font-weight: 500;
+    cursor: none; /* Elimina el cursor predeterminado */
+    font-size: 1.15vw;
+    text-decoration: none; /* Elimina la línea del enlace */
+    position: relative; /* Necesario para el efecto del cursor */
+    transition: color 0.5s ease, background-color 0.5s ease; /* Suaviza la transición de color */
+    color: #fff;
+    
+}
+
+#nav a:hover {
+    color: black/* tu color deseado aquí */;/* Cambia el color del texto al pasar el cursor */
+   /* background-color: pink /* tu color de fondo deseado aquí */; /* Cambia el color de fondo al pasar el cursor */
+}
+
+.btn {
+  display: flex;
+  flex-direction: column; /* Coloca el texto en columnas */
+  justify-content: center; /* Centra verticalmente el contenido */
+  align-items: center; /* Centra horizontalmente el contenido */
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: 100px; /* Mantiene el mismo ancho y alto para la forma circular */
+  background-color: black; /* Color de fondo negro */
+  color: white; /* Color del texto */
+  border-radius: 50%; /* Hace que el enlace tenga forma circular */
+  text-align: center; /* Centra el texto dentro del enlace */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar el fondo */
+}
+
+.btn:hover {
+  background-color: #444; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Ajustes para el texto */
+.hola {
+  font-size: 1.2rem; /* Tamaño del texto, ajústalo como necesites */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 200px;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+    background-color: #f0eaeae3;
+    border-radius: 20px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.2s ease-in;
+
+}
+.card-wrapper:hover{
+    transform: scale(1.1);
+}
+.card-header{
+    margin: 1rem;
+    text-align: center;
+}
+
+.card-wrapper:hover .card-header> h2 {
+    transform: scale(1.1);
+    color: #5222d0;
+    letter-spacing: 2;
+}
+
+
+.card-header >img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-detail{
+    width: 100%;
+}
+
+.card-detail > p {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+.check{
+    color: #5222d0;
+}
+.nocheck {
+    color: #ec615b;
+}
+.card-detail > p:hover{
+    background-color: #d5d5d5;
+}
+
+.card-price {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.card-price > p {
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.card-price > p > sup,
+.card-price > p > sub {
+    font-size:1rem;
+}
+
+.card-button {
+    padding: 0.6rem 3rem ;
+    border: 2px solid #5222d0;
+    background-color: #5222d0;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+}
+
+.card-button:hover {
+    border: 2px solid #ec615b;
+    background-color: transparent;
+    color: #ec615b;
+    font-weight: 800;
+}
+
+
+
+
+
