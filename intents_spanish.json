@@ -1,0 +1,143 @@
+{
+    "intents":[
+            
+
+            {
+                "tag": "preparacion_general",
+                "patterns": [
+                    "¿Cómo me preparo para una entrevista de trabajo?",
+                    "¿Qué debo hacer antes de una entrevista?",
+                    "¿Cómo puedo prepararme mejor?",
+                    "¿Qué recomendaciones tienes para prepararme?"
+                ],
+                "responses": [
+                    "Investiga la empresa y el puesto al que aplicas. Esto te ayudará a adaptar tus respuestas y mostrar interés.",
+                    "Practica responder preguntas comunes de entrevista y piensa en ejemplos concretos que demuestren tus habilidades."
+                    
+                ]
+            },
+            {
+                "tag": "pregunta_personal",
+                "patterns": [
+                    "¿Cómo respondo a la pregunta 'Háblame de ti'?",
+                    "¿Qué digo cuando me piden que hable sobre mí?",
+                    "¿Cómo debo responder si me preguntan sobre mi experiencia?",
+                    "¿Qué debo decir cuando me piden que me describa?"
+                ],
+                "responses": [
+                    "Responde de manera breve y estructurada: menciona quién eres, tus experiencias relevantes y tus objetivos profesionales.",
+                    "Evita hablar solo de cualidades personales; concéntrate en experiencias y logros específicos que se relacionen con el puesto y inaliza tu respuesta conectando tus habilidades con las necesidades del trabajo al que aplicas."
+                    
+                ]
+            },
+            {
+                "tag": "motivacion",
+                "patterns": [
+                    "¿Cómo explico por qué estoy interesado en el puesto?",
+                    "¿Qué digo si me preguntan por qué quiero trabajar aquí?",
+                    "¿Cómo respondo si me piden que explique mi interés en la empresa?",
+                    "¿Qué debo responder cuando me pregunten sobre mi motivación?"
+                ],
+                "responses": [
+                    "Habla de cómo tus habilidades y experiencia se alinean con los objetivos del puesto.",
+                    "Menciona algo específico que te atraiga de la empresa, como sus proyectos, cultura o misión.",
+                    "Conecta tus metas profesionales con la oportunidad que ofrece la empresa; esto demuestra compromiso y visión a largo plazo."
+                ]
+            },
+            {
+                "tag": "fortalezas",
+                "patterns": [
+                    "¿Cómo hablo de mis fortalezas?",
+                    "¿Qué debo decir sobre mis habilidades fuertes?",
+                    "¿Cómo destaco mis puntos fuertes?",
+                    "¿Qué debo responder cuando me pregunten sobre mis fortalezas?"
+                ],
+                "responses": [
+                    "Elige una fortaleza relevante para el puesto y usa un ejemplo específico de cómo la has utilizado en el pasado.",
+                    "Evita enumerar fortalezas; es más efectivo dar un ejemplo concreto de cómo una fortaleza ha beneficiado a tu equipo o proyecto."
+                ]
+            },
+            {
+                "tag": "debilidades",
+                "patterns": [
+                    "¿Cómo hablo de mis debilidades?",
+                    "¿Qué digo cuando me preguntan sobre mis puntos débiles?",
+                    "¿Qué debo responder si me piden una debilidad?",
+                    "¿Cómo explico mis debilidades en una entrevista?"
+                ],
+                "responses": [
+                    "Menciona una debilidad que no sea fundamental para el puesto y explica cómo estás trabajando para mejorarla.",
+                    "Es mejor elegir una debilidad en la que hayas progresado; da ejemplos de cómo la has gestionado y superado.",
+                    "Evita mencionar una debilidad clave para el rol, y concéntrate en habilidades complementarias en las que has trabajado para mejorar."
+                ]
+            },
+            {
+                "tag": "investigacion_empresa",
+                "patterns": [
+                    "¿Qué debo saber sobre la empresa ?",
+                    "¿Por qué es importante conocer la empresa?",
+                    "¿Cómo me ayuda investigar a la empresa en una entrevista?"
+                ],
+                "responses": [
+                    "Investigar la misión, visión y valores de la empresa te ayuda a adaptar tus respuestas y a mostrar interés genuino en la organización. Esto puede hacer que tu perfil destaque al alinearte con los objetivos de la empresa.",
+                    "Conocer los proyectos recientes o logros de la empresa te permite mencionar temas específicos en la entrevista, lo que demuestra tu iniciativa y compromiso. Puedes referenciar un proyecto reciente y explicar cómo podrías contribuir a ese tipo de éxito.",
+                    "Estar informado sobre la cultura y estructura de la empresa te permite adaptar tus respuestas para mostrar que encajarías bien en su ambiente. Esto es especialmente importante si la empresa valora cualidades específicas como innovación, colaboración o responsabilidad social.",
+                    "Investigar a fondo también te da confianza para hacer preguntas inteligentes al entrevistador. Esto puede incluir temas como la dirección futura de la empresa, oportunidades de desarrollo profesional, o cómo el rol que deseas contribuiría a los objetivos más amplios de la organización."
+                    
+                ]
+            },
+            {
+                "tag": "preguntas_entrevistador",
+                "patterns": [
+                    "¿Qué preguntas puedo hacerle al entrevistador?",
+                    "¿Debo hacer preguntas al final de la entrevista?",
+                    "¿Qué tipo de preguntas puedo hacer en la entrevista?",
+                    "¿Qué le pregunto al entrevistador?"
+                ],
+                "responses": [
+                    "Haz preguntas sobre la cultura de la empresa, el equipo con el que trabajarás, o los desafíos del rol para mostrar interés.",
+                    "Preguntar sobre las expectativas de los primeros meses en el puesto puede demostrar que te proyectas en el rol."
+                    
+                ]
+            },
+            {
+                "tag": "lenguaje_corporal",
+                "patterns": [
+                    "¿Qué importancia tiene el lenguaje corporal?",
+                    "¿Cómo influye mi lenguaje corporal en una entrevista?"
+        
+                ],
+                "responses": [
+                    "El lenguaje corporal es fundamental en una entrevista, ya que proyecta confianza y profesionalismo. La forma en que te presentas físicamente puede respaldar o incluso impactar más que tus respuestas verbales. Para proyectar seguridad, mantén una postura erguida y un contacto visual adecuado.",
+                    "Una gran parte de la comunicación en una entrevista es no verbal. Los entrevistadores suelen interpretar tu postura, gestos y expresiones como señales de tu nivel de interés y confianza. Mantén una postura abierta, relájate y utiliza gestos moderados para enfatizar tus respuestas.",
+                    "El lenguaje corporal adecuado puede mejorar la percepción que el entrevistador tiene de ti, mostrando que estás atento y comprometido. Usa un contacto visual natural y una sonrisa para mostrar accesibilidad y amabilidad.",
+                    "Los gestos y posturas positivas transmiten que eres una persona segura y entusiasta. Evita movimientos nerviosos, como tocarte la cara o golpear la mesa, ya que pueden mostrar inseguridad. En su lugar, mantén los pies firmes en el suelo y relájate.",
+                    "Mantener un buen lenguaje corporal puede ayudarte a conectar mejor con el entrevistador, aumentando tus posibilidades de éxito. Evita cruzar los brazos, mantén una postura erguida y usa las manos de manera natural para transmitir apertura y disposición."
+                ]
+            },
+            
+            
+            {
+                "tag": "comunicacion_no_verbal",
+                "patterns": [
+                    "¿Cómo debo actuar en la entrevista?"
+                    
+                ],
+                "responses": [
+                    "Mantén contacto visual y una postura abierta; evita cruzar los brazos o mirar constantemente el reloj.",
+                    "Asiente mientras el entrevistador habla para demostrar que estás prestando atención y mantente relajado.",
+                    "Sonríe y mantén un tono de voz moderado para transmitir confianza y amabilidad."
+                ]
+            }
+           
+            
+            
+
+
+
+
+
+
+
+        ]
+}
